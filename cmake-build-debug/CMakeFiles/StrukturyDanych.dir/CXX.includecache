@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/main.cpp
+iostream
+-
+stack.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/stack.h
+
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
+
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/stack.h
+node.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
+

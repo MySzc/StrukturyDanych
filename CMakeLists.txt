@@ -3,4 +3,4 @@ project(StrukturyDanych)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(StrukturyDanych main.cpp stack.h node.h)
+add_executable(StrukturyDanych main.cpp stack.h node.h queue.h priorityqueue.h)

@@ -12,20 +12,18 @@ public:
     T data;
     Node *next;
 
+    unsigned int importance; // For the priority queue - the lower the importance the more it's prioritised
+
     Node();
-    Node(T value);
 };
 
 template<typename T>
 Node<T>::Node() {
     data = 0;
     next = nullptr;
+    importance = 0;
 }
 
-template<typename T>
-Node<T>::Node(T value) {
-    data = value;
-    next = nullptr;
-}
+
 
 #endif //STRUKTURYDANYCH_NODE_H

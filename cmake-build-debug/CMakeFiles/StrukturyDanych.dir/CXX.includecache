@@ -11,7 +11,19 @@ iostream
 -
 stack.h
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/stack.h
+queue.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/queue.h
+priorityqueue.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/priorityqueue.h
 
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
+
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/priorityqueue.h
+node.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
+
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/queue.h
+node.h
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
 
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/stack.h

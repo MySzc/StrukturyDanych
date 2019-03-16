@@ -3,5 +3,7 @@
 
 CMakeFiles/StrukturyDanych.dir/main.cpp.o: ../main.cpp
 CMakeFiles/StrukturyDanych.dir/main.cpp.o: ../node.h
+CMakeFiles/StrukturyDanych.dir/main.cpp.o: ../priorityqueue.h
+CMakeFiles/StrukturyDanych.dir/main.cpp.o: ../queue.h
 CMakeFiles/StrukturyDanych.dir/main.cpp.o: ../stack.h
 

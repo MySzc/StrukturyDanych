@@ -30,30 +30,32 @@ void Stack<T>::push(const T &NewElement) {
 
     Node<T> *tmp = new Node<T>;
     tmp->data = NewElement;
-    tmp->next = top;
 
-    top = tmp;
+
+    if(top == nullptr){
+        top = tmp;
+    }
+    else{
+        tmp->next = top;
+        top = tmp;
+    };
 }
 
 template<typename T>
 T Stack<T>::pop() {
 
-    T tmpData = top->data;
 
     if(top == nullptr){
-        std::cout << "The stack is empty!" << std::endl;
-        return tmpData;
+        std::cout << "The stack is empty!" <<  std::endl;
+        return NULL; // Co zwrocic gdy stos jest pusty? (NULL = warning)
     }else {
         std::cout << "Popping the value: " << top->data << "!" << std::endl;
 
-
         Node<T> *tmp = top;
         top = tmp->next;
-        delete tmp;
-        return tmpData;
-    };
 
-    return tmpData;
+        return tmp->data;
+    };
 }
 
 

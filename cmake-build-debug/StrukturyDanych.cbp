@@ -90,6 +90,12 @@
 		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h">
 			<Option target="StrukturyDanych"/>
 		</Unit>
+		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/priorityqueue.h">
+			<Option target="StrukturyDanych"/>
+		</Unit>
+		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/queue.h">
+			<Option target="StrukturyDanych"/>
+		</Unit>
 		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/stack.h">
 			<Option target="StrukturyDanych"/>
 		</Unit>

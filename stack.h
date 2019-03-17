@@ -47,7 +47,7 @@ T Stack<T>::pop() {
 
     if(top == nullptr){
         std::cout << "The stack is empty!" <<  std::endl;
-        return NULL; // Co zwrocic gdy stos jest pusty? (NULL = warning)
+        return NULL; //TODO Co zwrocic gdy stos jest pusty? (NULL = warning)
     }else {
         std::cout << "Popping the value: " << top->data << "!" << std::endl;
 

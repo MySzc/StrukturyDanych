@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/StrukturyDanych.dir/main.cpp.o  -o StrukturyDanych 
+/usr/bin/c++   -Wall -pedantic -g   CMakeFiles/StrukturyDanych.dir/main.cpp.o  -o StrukturyDanych 

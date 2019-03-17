@@ -13,6 +13,7 @@ public:
     Node *next;
 
     unsigned int importance; // For the priority queue - the lower the importance the more it's prioritised
+    Node *previous; //For the linked list
 
     Node();
 };
@@ -22,6 +23,7 @@ Node<T>::Node() {
     data = 0;
     next = nullptr;
     importance = 0;
+    previous = nullptr;
 }
 
 

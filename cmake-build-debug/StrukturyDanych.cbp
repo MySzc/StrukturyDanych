@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/linkedlist.h">
+			<Option target="StrukturyDanych"/>
+		</Unit>
 		<Unit filename="/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/main.cpp">
 			<Option target="StrukturyDanych"/>
 		</Unit>

@@ -50,7 +50,7 @@ T Queue<T>::dequeue() {
 
     if(first == nullptr){
         std::cout << "The queue is empty!" << std::endl;
-        return NULL; // Co zwrocic gdy kolejka jest pusta? (NULL = warning)
+        return NULL; // TODO Co zwrocic gdy kolejka jest pusta? (NULL = warning)
     }else {
         std::cout << "Dequeueing the value: " << first->data << "!" << std::endl;
 

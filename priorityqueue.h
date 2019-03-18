@@ -33,6 +33,7 @@ void PriorityQueue<T>::enqueue(const T &newElement, unsigned int priority) {
     Node<T> *tmpIterator = new Node<T>;
     tmp->data = newElement;
     tmp->importance = priority;
+    tmpIterator = first;
 
     // gdy nic nie ma w kolejce
     if(first == nullptr ){
@@ -40,28 +41,27 @@ void PriorityQueue<T>::enqueue(const T &newElement, unsigned int priority) {
         first = tmp;
     }
     else{
-        //gdy jest tylko jeden element w kolejce
-        if(first->next == nullptr){
 
-            if(priority < first->importance){
-                tmp->next = first;
-                first = tmp;
-            } else {
-                first->next = tmp;
-            };
+        if(first->next == nullptr || tmpIterator->importance >= priority){
+
+            tmp->next = first;
+            first = tmp;
 
         }else {
 
-            tmpIterator = first;
+            while (tmpIterator->importance <= priority && tmpIterator->next != nullptr) {
 
-            while (tmpIterator->next->importance <= priority && tmpIterator->next != nullptr) {
-
+                tmp->next = tmpIterator;
                 tmpIterator = tmpIterator->next;
-                tmp->next = tmpIterator->next;
-                tmpIterator->next = tmp;
+                //tmp->next = tmpIterator;
+                //tmpIterator->next = tmp;
             };
+
+            tmpIterator->next = tmp;
+            tmp->next = nullptr;
         };
     };
+
 }
 
 template<typename T>

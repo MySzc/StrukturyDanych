@@ -34,7 +34,7 @@ int main() {
     q.dequeue();
 
     //TODO DOES NOT WORK PROPERLY
-/* ************************************************************************************************
+
     std::cout << std::endl << std::endl << "Running test: PRIORITYQUEUE" << std::endl << std::endl;
 
     PriorityQueue<int> pq;
@@ -44,6 +44,12 @@ int main() {
     pq.enqueue(5,1);
     pq.enqueue(1,1);
     pq.enqueue(5,0);
+    pq.enqueue(2,10);
+    pq.enqueue(55,8);
+    pq.enqueue(9,11);
+    pq.dequeue();
+    pq.dequeue();
+    pq.dequeue();
     pq.dequeue();
     pq.dequeue();
     pq.dequeue();
@@ -51,7 +57,7 @@ int main() {
     pq.dequeue();
     pq.dequeue();
 
-*************************************************************************************************** */
+/*************************************************************************************************** */
 
 
     std::cout << std::endl << std::endl << "Running test: DOUBLELINKEDLIST" << std::endl << std::endl;

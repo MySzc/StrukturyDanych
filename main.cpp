@@ -3,6 +3,7 @@
 #include "queue.h"
 #include "priorityqueue.h"
 #include "linkedlist.h"
+#include "hashmap.h"
 
 
 int main() {
@@ -33,7 +34,6 @@ int main() {
     q.dequeue();
     q.dequeue();
 
-    //TODO DOES NOT WORK PROPERLY
 
     std::cout << std::endl << std::endl << "Running test: PRIORITYQUEUE" << std::endl << std::endl;
 
@@ -57,15 +57,25 @@ int main() {
     pq.dequeue();
     pq.dequeue();
 
-/*************************************************************************************************** */
-
 
     std::cout << std::endl << std::endl << "Running test: DOUBLELINKEDLIST" << std::endl << std::endl;
 
     List<int> l;
 
-    l.pushFront(1);
+
+    l.pushBack(3);
+    l.pushBack(4);
     l.pushFront(2);
+    l.pushFront(1);
+    l.remove(2);
+    l.insert(2,1);
+
+
+
+    std::cout << std::endl << std::endl << "Running test: HASHMAP" << std::endl << std::endl;
+
+
+
 
 
 

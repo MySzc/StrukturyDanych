@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/hashmap.h
+
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/linkedlist.h
 node.h
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
@@ -21,6 +23,14 @@ priorityqueue.h
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/priorityqueue.h
 linkedlist.h
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/linkedlist.h
+hashmap.h
+/home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/hashmap.h
+list
+-
+stack
+-
+queue
+-
 
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
 

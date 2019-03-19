@@ -108,7 +108,6 @@ void List<T>::insert(const T &newElement, int index) {
 template<typename T>
 void List<T>::remove(const T &element) {
 
-    Node<T> *tmp = new Node<T>;
     Node<T> *tmpIterator = new Node<T>;
     tmpIterator = head;
 

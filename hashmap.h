@@ -5,6 +5,9 @@
 #ifndef STRUKTURYDANYCH_HASHMAP_H
 #define STRUKTURYDANYCH_HASHMAP_H
 
+#define SIZE 100
+#define SEED
+
 template<typename KeyType ,typename ValueType >
 class Map{
 public:
@@ -23,7 +26,6 @@ void Map<KeyType, ValueType>::insert(const KeyType &key, const ValueType &value)
 
 template<typename KeyType, typename ValueType>
 ValueType &Map<KeyType, ValueType>::operator[](const KeyType &key) {
-    return <#initializer#>;
 }
 
 

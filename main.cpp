@@ -4,6 +4,9 @@
 #include "priorityqueue.h"
 #include "linkedlist.h"
 #include "hashmap.h"
+#include <list>
+#include <stack>
+#include <queue>
 
 
 int main() {
@@ -13,6 +16,16 @@ int main() {
     std::cout << std::endl << std::endl << "Running test: STACK" << std::endl << std::endl;
 
     Stack<int> s;
+    std::stack<int> stds;
+
+    stds.push(10);
+    stds.push(11);
+    stds.push(12);
+    stds.pop();
+    stds.pop();
+    stds.pop();
+    stds.pop();
+
 
     s.push(10);
     s.push(11);
@@ -25,6 +38,15 @@ int main() {
     std::cout << std::endl << std::endl << "Running test: QUEUE" << std::endl << std::endl;
 
     Queue<int> q;
+    std::queue<int> stdq;
+
+    stdq.push(1);
+    stdq.push(2);
+    stdq.push(3);
+    stdq.pop();
+    stdq.pop();
+    stdq.pop();
+    stdq.pop();
 
     q.enqueue(1);
     q.enqueue(2);
@@ -38,6 +60,23 @@ int main() {
     std::cout << std::endl << std::endl << "Running test: PRIORITYQUEUE" << std::endl << std::endl;
 
     PriorityQueue<int> pq;
+    std::priority_queue<int> stdpq;
+
+    stdpq.push(2);
+    stdpq.push(2);
+    stdpq.push(53);
+    stdpq.push(0);
+    stdpq.push(122);
+    stdpq.push(7);
+    stdpq.push(5);
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
+    stdpq.pop();
 
     pq.enqueue(2,3);
     pq.enqueue(4,2);
@@ -61,6 +100,14 @@ int main() {
     std::cout << std::endl << std::endl << "Running test: DOUBLELINKEDLIST" << std::endl << std::endl;
 
     List<int> l;
+    std::list<int> stdl;
+
+    stdl.push_back(3);
+    stdl.push_back(4);
+    stdl.push_front(2);
+    stdl.push_front(1);
+    stdl.remove(2);
+    stdl.insert(stdl.begin(), 1);
 
 
     l.pushBack(3);
@@ -71,8 +118,8 @@ int main() {
     l.insert(2,1);
 
 
-
-    std::cout << std::endl << std::endl << "Running test: HASHMAP" << std::endl << std::endl;
+//  INCOMPLETE
+//    std::cout << std::endl << std::endl << "Running test: HASHMAP" << std::endl << std::endl;
 
 
 

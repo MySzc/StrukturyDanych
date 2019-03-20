@@ -26,7 +26,7 @@ public:
 template<typename KeyType, typename ValueType>
 int Map<KeyType, ValueType>::hashing(int key) {
 
-    return key % MAX_SIZE;
+    return key*SEED % MAX_SIZE;
 }
 
 template<typename KeyType, typename ValueType>
@@ -62,7 +62,7 @@ void Map<KeyType, ValueType>::remove(const KeyType &key) {
 
     std::cout << "Removing the value with the index: " << hashing(key) << " from the map!" << std::endl;
 
-    array[hashing(key)] = NULL; //TODO another day another null
+    array[hashing(key)] = NULL; //TODO problem not knowing how to remove an element
 }
 
 

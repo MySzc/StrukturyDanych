@@ -62,7 +62,7 @@ void Map<KeyType, ValueType>::remove(const KeyType &key) {
 
     std::cout << "Removing the value with the index: " << hashing(key) << " from the map!" << std::endl;
 
-    array[hashing(key)] = NULL; //TODO problem not knowing how to remove an element
+    array[hashing(key)] = NULL; //TODO Problem z usuwaniem problemu
 }
 
 

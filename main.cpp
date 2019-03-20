@@ -7,6 +7,7 @@
 #include <list>
 #include <stack>
 #include <queue>
+#include <map>
 
 
 int main() {
@@ -118,11 +119,29 @@ int main() {
     l.insert(2,1);
 
 
-//  INCOMPLETE
-//    std::cout << std::endl << std::endl << "Running test: HASHMAP" << std::endl << std::endl;
+
+    std::cout << std::endl << std::endl << "Running test: HASHMAP" << std::endl << std::endl;
+
+    Map<int, int> m_i;
+    Map<std::string, int> m_ss;
+    Map<std::string, std::string> m_s;
+
+    std::map<int,int> stdm;
+
+    m_i.insert(0, 5);
+    m_i.insert(5, 75);
+    m_i.insert(85, 23);
+    m_i.insert(100, 100);
+    m_i.remove(0);
+
+    m_ss.insert("test", 1);
+    m_ss.insert("ttest", 129);
+    m_ss.remove("test");
 
 
-
+    m_s.insert("Marka", "BMW");
+    m_s.insert("Silnik", "Benzyna");
+   // m_s.remove("Marka");   <- nie dziala
 
 
 

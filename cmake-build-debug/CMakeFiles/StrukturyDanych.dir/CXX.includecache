@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/hashmap.h
+string
+-
 
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/linkedlist.h
 node.h
@@ -30,6 +32,8 @@ list
 stack
 -
 queue
+-
+map
 -
 
 /home/msz/Desktop/szkoła/Szkoła 2 rok/PAMSI/StrukturyDanych/node.h
